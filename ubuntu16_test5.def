@@ -28,7 +28,9 @@ From: ubuntu:16.04
     export CMAKE_PREFIX_PATH
     ROS_ETC_DIR=/opt/ros/kinetic/etc/ros
     export ROS_ETC_DIR
-    
+%files
+  scripts /scripts
+
 %post
   /scripts/post_script.sh
 
