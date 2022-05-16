@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo singularity build \
     --sandbox \
-    ubuntu16.04_kinetic_container \
+    ubuntu16_04_kinetic_container \
     ubuntu16_test5.def
 
 # Usually the home/.bashrc will include user-specific changes and we don't want
