@@ -36,4 +36,4 @@ From: ubuntu:16.04
   exec /bin/bash "$@" --rcfile /scripts/run_script.sh
   
   
-#source /opt/ros/kinetic/setup.bash 
+
