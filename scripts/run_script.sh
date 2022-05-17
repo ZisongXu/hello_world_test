@@ -10,6 +10,9 @@ if [ ! -d "$HOME/catkin_ws/devel" ]; then
     wget https://bootstrap.pypa.io/pip/3.5/get-pip.py
     python3 get-pip.py
     pip3 install numpy
+    pip3 install pyyaml
+    pip3 install rospkg
+    pip3 install netifaces
 fi
 
 source $HOME/catkin_ws/devel/setup.bash
